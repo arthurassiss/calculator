@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+
+* {
+	font-family: 'Anta', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.containerCalculator {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+.calculator {
+	background-color: #161f2f;
+	width: 100%;
+	max-width: 20rem;
+	height: 60%;
+	border-radius: 30px;
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 2rem;
+}
+.screen {
+	width: 90%;
+	height: 10%;
+	background-color: #88a273;
+	border-radius: 7px;
+	font-size: 2rem;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+.square {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	justify-content: space-evenly;
+	gap: 10rem;
+}
+.containerButtons {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 2rem;
+	justify-content: center;
+}
+.button {
+	width: 20%;
+	height: 13%;
+}
+
+.operator {
+	width: 20%;
+	height: 13%;
+}
+button {
+	font-size: 2rem;
+	padding: 0;
+	border-radius: 7px;
+	border: none;
+}
+button:active {
+	opacity: 0.7;
+}
+.opr6 {
+	color: #fc8a00;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Toggle Switch Button</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<div class="containerCalculator">
+			<div class="calculator">
+				<div id="screen" class="screen"></div>
+				<div class="square">
+					<div class="containerButtons">
+						<button
+							id="btn1"
+							onclick="calc('1')"
+							class="button btn1">
+							1
+						</button>
+						<button id="btn2" onclick="calc(2)" class="button btn2">
+							2
+						</button>
+						<button id="btn3" onclick="calc(3)" class="button btn3">
+							3
+						</button>
+						<button id="btn4" onclick="calc(4)" class="button btn4">
+							4
+						</button>
+						<button id="btn5" onclick="calc(5)" class="button btn5">
+							5
+						</button>
+						<button id="btn6" onclick="calc(6)" class="button btn6">
+							6
+						</button>
+						<button id="btn7" onclick="calc(7)" class="button btn7">
+							7
+						</button>
+						<button id="btn8" onclick="calc(8)" class="button btn8">
+							8
+						</button>
+						<button id="btn9" onclick="calc(9)" class="button btn9">
+							9
+						</button>
+						<button id="btn0" onclick="calc(0)" class="button btn0">
+							0
+						</button>
+						<button
+							id="opr1"
+							onclick="calc('+')"
+							class="operator opr1">
+							+
+						</button>
+						<button
+							id="opr2"
+							onclick="calc('-')"
+							class="operator opr2">
+							-
+						</button>
+						<button
+							id="opr3"
+							onclick="calc('*')"
+							class="operator opr3">
+							*
+						</button>
+						<button
+							id="opr4"
+							onclick="calc('/')"
+							class="operator opr4">
+							/
+						</button>
+						<button
+							id="opr5"
+							onclick="calculateResult()"
+							class="operator opr5">
+							=
+						</button>
+						<button
+							id="opr6"
+							onclick="clearResult()"
+							class="operator opr6">
+							C
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="scripts.js"></script>
+	</body>
+</html>
