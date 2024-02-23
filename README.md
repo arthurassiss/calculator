@@ -24,8 +24,4 @@ Contribuições são sempre bem-vindas! Se você encontrar algum problema ou tiv
 
 ## Autor
 
-Este projeto foi desenvolvido por [Seu Nome].
-
-## Licença
-
-Este projeto está licenciado sob a Licença [Tipo de Licença]. Consulte o arquivo `LICENSE` para obter mais detalhes.
+Este projeto foi desenvolvido por Arthur de Assis.
